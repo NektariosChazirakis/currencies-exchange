@@ -1,0 +1,78 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+content {
+  display: flex;
+  margin: 82px auto 32px;
+  padding: 0 16px;
+  max-width: 960px;
+  height:70vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.currencies-card {
+  width: 700px;
+  height: 300px;
+  background-color: #ffffff;
+}
+
+.actions {
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.separator {
+  width: 90%;
+  margin: 20px 10px;
+}
+
+.mat-card .mat-divider-horizontal {
+  position: unset !important;
+}
+
+.conversion-results {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .card-container  {
+    width: 100%;
+  }
+
+  .card {
+    height: 16px;
+    margin: 8px 0;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .fields-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

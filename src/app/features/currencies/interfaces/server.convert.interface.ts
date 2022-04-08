@@ -1,7 +1,15 @@
-export interface ServerCurrencyResponse {
+export interface ServerConvertResponse {
   success: boolean;
-  symbols: {
-    code: string,
-    name: string
-  };
+  query: {
+    from: string,
+    to: string,
+    amount: number
+  },
+  info: {
+    timestamp: number,
+    rate: string
+  },
+  historical: string,
+  date: string,
+  result: number
 }

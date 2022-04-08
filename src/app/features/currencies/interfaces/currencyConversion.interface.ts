@@ -1,4 +1,4 @@
-export interface Currency {
-  symbol: string;
+export interface CurrencyConversion {
+  rate: string;
   name: string;
 }

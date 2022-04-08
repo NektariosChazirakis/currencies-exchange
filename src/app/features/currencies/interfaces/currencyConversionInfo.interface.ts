@@ -1,4 +1,5 @@
-export interface CurrencyConversion {
-  rate: string;
-  name: string;
+export interface CurrencyConversionInfo {
+  amount: number,
+  from: string;
+  to: string;
 }
